@@ -16,8 +16,7 @@ jobs:
       - name: Setup Go version
         uses: actions/setup-go@v5
         with:
-            go-version: '>=1.17.0'
-      - run: go version    
+            go-version: '>=1.17.0' 
 
       - name: Install dependencies
       - name: Unit Testing
