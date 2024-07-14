@@ -15,7 +15,7 @@ jobs:
 
       - name: Setup Go version
         uses: actions/setup-go@v5
-          with:
+        with:
             go-version: '>=1.17.0'
 
       - name: Install dependencies
